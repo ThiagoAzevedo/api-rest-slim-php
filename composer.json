@@ -1,0 +1,19 @@
+{
+    "name": "Teste/Grafico",
+    "description": "Teste com Gráfico do Highcharts",
+    "authors": [
+        {
+            "name": "Thiago Soares",
+            "email": "tsoaresaz@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "config\\": "config/"
+        }
+    }
+}
